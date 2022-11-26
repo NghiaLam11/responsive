@@ -1,0 +1,151 @@
+@media (min-width:740px) and
+(max-width:1023px) {
+  .header__navbar{
+    display: none;
+  }
+  .header__search{
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 90%;
+  }
+
+  .display-on-mobile{
+    display: inline-block;
+  }
+
+  .search-icon-on-mobile{
+    font-size: 3rem;
+  }
+
+  .bars-icon-on-mobile{
+    font-size: 3rem;
+    margin: 0 10px;
+  }
+
+  .header__search-search{
+    display: none;
+  }
+
+  .categlory{
+    background-color: #eee;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .categlory-on-mobile{
+    max-width: 100%;
+    background-color: #eee;
+    overflow-x: scroll;
+    margin-top: 5px;
+    padding: 10px 0 10px 0;
+  }
+
+  .categlory-on-mobile::-webkit-scrollbar{
+    display: none;
+  }
+
+  .list-on-mobile{
+    display: inline-flex;
+    padding: 0;
+  }
+
+  .list-on-mobile-child{
+    background-color: white;
+     margin: 0 5px;
+     text-align: center;
+     border: 1px solid black;
+     border-radius: 5px;
+     min-width: 30%;
+     padding: 10px 0;
+  }
+
+  .container{
+    margin-top: 0;
+  }
+
+}
+
+@media (max-width:739px) {
+  .container{
+    margin-top: 0;
+  }
+
+  .header__navbar{
+    display: none;
+  }
+
+  .header__search{
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 80%;
+  }
+
+  .header__search-search{
+    display: none;
+  }
+
+  .display-on-mobile{
+    display: inline-block;
+  }
+
+  .search-icon-on-mobile{
+    font-size: 2.5rem;margin-top: 5px;
+  }
+
+  .bars-icon-on-mobile{
+    font-size: 2.5rem;
+    margin:5px 8px 0 10px;
+  }
+
+  .header__search-logo{
+    margin-left: -20px;
+  }
+
+  .header__search-logo-title{
+    font-size: 3.5rem;
+  }
+
+  .header__search-shop{
+    display: none;
+  }
+
+  .categlory-on-mobile{
+    max-width: 100%;
+    overflow-x: scroll;
+    margin:10px 0 10px 0;
+    padding: 5px 0 5px 0;
+    background-color: #eee;
+  }
+
+  .categlory-on-mobile::-webkit-scrollbar{
+    display: none;
+  }
+
+  .list-on-mobile{
+    display: inline-flex;
+    padding: 0;
+  }
+
+  .list-on-mobile-child{
+    text-align: center;
+    background-color: white;
+     margin: 0 5px;
+     min-width: 30%;
+     padding: 5px 0;
+     border: 1px solid black;
+     border-radius: 5px;
+  }
+
+
+}
+.link-on-mobile{
+  font-size: 2rem;
+}
+
+ 
